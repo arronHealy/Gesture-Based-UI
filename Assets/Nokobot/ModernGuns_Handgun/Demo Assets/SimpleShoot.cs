@@ -54,7 +54,7 @@ public class SimpleShoot : MonoBehaviour
         text.text = currentAmmo.ToString();
     }
 
-    void Reload()
+    public void Reload()
     {
         currentAmmo = maxAmmo;
         source.PlayOneShot(reload);
