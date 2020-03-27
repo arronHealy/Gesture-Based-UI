@@ -41,7 +41,7 @@ public class zombie : MonoBehaviour
         }
     }
 
-    void Die(RaycastHit info)
+    public void Die(RaycastHit info)
     {
         GetComponent<Animator>().enabled = false;
         RagDoll(false);

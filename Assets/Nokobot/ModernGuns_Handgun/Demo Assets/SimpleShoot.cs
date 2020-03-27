@@ -60,7 +60,7 @@ public class SimpleShoot : MonoBehaviour
         source.PlayOneShot(reload);
     }
 
-    void Shoot()
+    public void Shoot()
     {
         currentAmmo--;
         source.PlayOneShot(fire);

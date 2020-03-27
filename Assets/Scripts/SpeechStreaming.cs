@@ -213,6 +213,12 @@ public class SpeechStreaming : MonoBehaviour
                         FindObjectOfType<SimpleShoot>().Reload();
                     }
 
+                    if (alt.transcript.Contains("shoot"))
+                    {
+                        FindObjectOfType<SimpleShoot>().Shoot();
+                    }
+
+
 
                 }
 
